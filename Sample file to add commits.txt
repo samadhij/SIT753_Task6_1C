@@ -1,3 +1,4 @@
 This is just a text file
 Editing file for commit no. 1 
 Editing file for commit no. 2
+Editing file for commit no. 3
