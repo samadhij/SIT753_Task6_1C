@@ -86,8 +86,8 @@ pipeline {
 def emailNotification(stageName, status) {
     emailext subject: "Pipeline Status - $status: $stageName",
               body: "The $stageName stage ${status.toLowerCase()}. Please see attached logs for details.",
-              to: 'samadhi0727@gmail.com',
-              //attachLog: true
+              to: 'samadhi0727@gmail.com'
+              //attachLog: true,
               //attachmentsPattern: 'generatedFile.txt'
 }
 
